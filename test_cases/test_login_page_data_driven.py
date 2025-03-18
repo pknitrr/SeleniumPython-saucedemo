@@ -5,7 +5,7 @@ from utilities.read_properties import ReadConfig
 from selenium.webdriver.common.by import By
 from base_pages.login_page import LoginPage
 from utilities.custom_logger import LogMaker
-
+import openpyxl
 class TestLoginPage:
 
     username = "//input[@id ='user-name']"
@@ -17,36 +17,11 @@ class TestLoginPage:
     invalid_username_value = ReadConfig.get_invalid_username()
     #use logger
     logger  = LogMaker.log_generate()
-
-    # username = ReadConfig.get_username()
-    # password = ReadConfig.get_password()
-    # invalid_username = ReadConfig.get_invalid_username()
-    # login_button = ReadConfig.get_login_button()
+    path = ".//test_data//login_data.xlsx"
 
 
-    def test_title(self,setup):
-        self.logger.info("************************** TC01: test_title started **************************")
-        self.driver = setup
-        self.obj_LoginPage = LoginPage(self.driver)
-        self.obj_LoginPage.navigate_to_login_page(self.login_page_url)
-        act_title =self.driver.title
-        exp_title = "Swag Labs"
-        if act_title == exp_title:
-            assert True
-            self.obj_LoginPage.take_screenshot("test_title")
-            self.logger.info("************************** TC01: test_title completed successfully **************************")
-
-            self.driver.close()
-        else:
-            self.obj_LoginPage.take_screenshot("test_title")
-            self.logger.info("************************** TC01: test_title Failed **************************")
-
-            self.driver.close()
-            assert False
-
-
-    def test_validLogin(self,setup):
-        self.logger.info("************************** TC02: test_validLogin started **************************")
+    def test_validLogin_data_driven(self,setup):
+        self.logger.info("************************** TC02: test_validLogin_data_driven started **************************")
         self.driver = setup
         self.obj_LoginPage = LoginPage(self.driver)
         self.obj_LoginPage.navigate_to_login_page(self.login_page_url)
@@ -60,12 +35,12 @@ class TestLoginPage:
             assert True
             self.obj_LoginPage.take_screenshot("test_validLogin")
             self.logger.info(
-                "************************** TC02: test_validLogin completed successfully **************************")
+                "************************** TC02: test_validLogin_data_driven completed successfully **************************")
             #self.driver.save_screenshot(".\\screenshots\\test_validLogin.png")
             self.driver.close()
         else:
             self.obj_LoginPage.take_screenshot("test_validLogin")
-            self.logger.info("************************** TC02: test_validLogin Failed **************************")
+            self.logger.info("************************** TC02: test_validLogin_data_driven Failed **************************")
             self.driver.close()
             assert False
 

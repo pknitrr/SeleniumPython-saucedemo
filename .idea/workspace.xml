@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1de71399-559b-469c-bfda-ac89e53b394a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saucedemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/__init__.py" afterDir="false" />
+    <list default="true" id="1de71399-559b-469c-bfda-ac89e53b394a" name="Changes" comment="First commit with base_pag and test_login_page">
+      <change afterPath="$PROJECT_DIR$/configurations/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/saucedemo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test_login_page_data_driven.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/custom_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/excel_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/read_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +31,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pknitrr&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pknitrr/SeleniumPythonProjects.git&quot;,
+    &quot;accountId&quot;: &quot;1b1a17ed-a2da-4d98-96da-2b8aa3862ffc&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Lib/site-packages/selenium/webdriver/__init__.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2uRNiJsIzKIoNx8FZEJU6CIyAzC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,39 +60,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_login_page.TestLoginPage.executor": "Run",
+    "Python tests.Python tests for test_login_page.TestLoginPage.testInvalidLogin.executor": "Run",
     "Python tests.Python tests for test_login_page.TestLoginPage.test_title.executor": "Run",
     "Python tests.Python tests for test_login_page.TestLoginPage.test_validLogin.executor": "Run",
     "Python tests.Python tests in test_login_page.py.executor": "Run",
     "Python.Test_login_page.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_login_page.TestLoginPage">
-    <configuration name="test_login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="saucedemo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pksin\PycharmProjects\SeleniumPythonProjects\saucedemo\test_cases\test_login_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pksin\PycharmProjects\SeleniumPythonProjects\saucedemo\screenshots" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_login_page.TestLoginPage.testInvalidLogin">
     <configuration name="Python tests for test_login_page.TestLoginPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="saucedemo" />
       <option name="ENV_FILES" value="" />
@@ -91,6 +90,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_login_page.TestLoginPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_login_page.TestLoginPage.testInvalidLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="saucedemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login_page.TestLoginPage.testInvalidLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -141,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage" />
-        <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage.test_title" />
+        <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage.testInvalidLogin" />
         <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage.test_validLogin" />
+        <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage.test_title" />
+        <item itemvalue="Python tests.Python tests for test_login_page.TestLoginPage" />
         <item itemvalue="Python tests.Python tests in test_login_page.py" />
-        <item itemvalue="Python.test_login_page" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +179,30 @@
       <option name="presentableId" value="Default" />
       <updated>1742207553775</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit with base_pag and test_login_page">
+      <option name="closed" value="true" />
+      <created>1742225758914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742225758914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit with base_pag and test_login_page" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit with base_pag and test_login_page" />
   </component>
 </project>
