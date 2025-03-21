@@ -15,10 +15,13 @@ def setup(browser):
     global driver
     if browser == "chrome":
         driver = webdriver.Chrome()
+        driver.maximize_window()
     elif browser == "firefox":
         driver = webdriver.Firefox()
+        driver.maximize_window()
     elif browser == "edge":
         driver = webdriver.Edge()
+        driver.maximize_window()
     else:
         raise ValueError("unsupported Browser")
     return driver

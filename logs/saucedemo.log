@@ -19,3 +19,49 @@
 2025-03-19 02:30:17 INFO ************************** TC02: test_validLogin completed successfully **************************
 2025-03-19 02:30:20 INFO ************************** TC03: testInvalidLogin started **************************
 2025-03-19 02:30:21 INFO ************************** TC03: testInvalidLogin completed successfully **************************
+2025-03-20 03:34:33 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:35:46 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:36:35 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:39:03 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:40:59 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:41:48 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:43:22 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:46:05 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:49:22 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:52:05 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:52:43 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:55:49 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 03:57:48 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 04:02:09 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 04:02:15 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 04:08:09 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 04:08:54 INFO ************************** TC02: test_validLogin_data_driven started **************************
+2025-03-20 04:09:00 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 04:12:05 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:13:19 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:14:17 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 04:15:34 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:20:38 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:21:40 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 04:25:06 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:27:00 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 04:27:27 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:29:44 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 04:29:50 INFO Test data is passed
+2025-03-20 15:45:32 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 15:45:38 INFO Test data is passed
+2025-03-20 15:48:21 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 15:49:13 INFO Test data is passed
+2025-03-20 15:50:06 INFO ************** TC02: test_validLogin_data_driven completed successfully **************
+2025-03-20 15:51:47 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 15:51:53 INFO Test data is passed
+2025-03-20 15:56:17 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 15:56:18 INFO Test data is passed
+2025-03-20 15:56:42 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 15:56:44 INFO Test data is passed
+2025-03-20 16:02:00 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 16:02:02 INFO Test data is passed
+2025-03-20 16:04:20 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 16:04:22 INFO Test data is passed
+2025-03-20 16:05:28 INFO ***************** TC02: test_validLogin_data_driven started ***************
+2025-03-20 16:05:30 INFO Test data is passed
